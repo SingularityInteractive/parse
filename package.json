@@ -9,13 +9,15 @@
   },
   "license": "MIT",
   "dependencies": {
+    "compression": "^1.6.2",
     "express": "~4.11.x",
+    "forever": "^0.15.2",
     "kerberos": "~0.0.x",
     "parse": "~1.8.0",
     "parse-server": "~2.2.12"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "forever index.js"
   },
   "engines": {
     "node": ">=4.3"
